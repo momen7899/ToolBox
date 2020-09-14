@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".CalculatorActivity">
+
+    <TextView
+        android:id="@+id/placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="45sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/clear"
+            style="@style/ActionButtonStyle"
+            android:text="@string/calculatorCE" />
+
+
+        <TextView
+            android:id="@+id/startBracket"
+            style="@style/ActionButtonStyle"
+            android:text="@string/calculatorBrace1" />
+
+
+        <TextView
+            android:id="@+id/closeBracket"
+            style="@style/ActionButtonStyle"
+            android:text="@string/calculatorBrace2" />
+
+
+        <TextView
+            android:id="@+id/actionDivide"
+            style="@style/ActionButtonStyle"
+            android:text="@string/calculatorDivide" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/num7"
+            style="@style/NumberButtonStyle"
+            android:text="@string/calculatorSeven" />
+
+
+        <TextView
+            android:id="@+id/num8"
+            style="@style/NumberButtonStyle"
+            android:text="@string/calculatorEight" />
+
+
+        <TextView
+            android:id="@+id/num9"
+            style="@style/NumberButtonStyle"
+            android:text="@string/calculatorNine" />
+
+
+        <TextView
+            android:id="@+id/actionMultiply"
+            style="@style/ActionButtonStyle"
+            android:text="@string/calculatorMultiply" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/num4"
+            style="@style/NumberButtonStyle"
+            android:text="@string/calculatorFour" />
+
+
+        <TextView
+            android:id="@+id/num5"
+            style="@style/NumberButtonStyle"
+            android:text="@string/calculatorFive" />
+
+
+        <TextView
+            android:id="@+id/num6"
+            style="@style/NumberButtonStyle"
+            android:text="@string/calculatorSix" />
+
+
+        <TextView
+            android:id="@+id/actionMinus"
+            style="@style/ActionButtonStyle"
+            android:text="@string/calculatorNegative" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/num1"
+            style="@style/NumberButtonStyle"
+            android:text="@string/calculatorOne" />
+
+
+        <TextView
+            android:id="@+id/num2"
+            style="@style/NumberButtonStyle"
+            android:text="@string/calculatorTwo" />
+
+
+        <TextView
+            android:id="@+id/num3"
+            style="@style/NumberButtonStyle"
+            android:text="@string/calculatorThree" />
+
+
+        <TextView
+            android:id="@+id/actionAdd"
+            style="@style/ActionButtonStyle"
+            android:text="@string/calculatorSum" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/numDot"
+            style="@style/NumberButtonStyle"
+            android:text="@string/calculatorDot" />
+
+
+        <TextView
+            android:id="@+id/num0"
+            style="@style/NumberButtonStyle"
+            android:text="@string/calculatorZero" />
+
+
+        <TextView
+            android:id="@+id/actionBack"
+            style="@style/NumberButtonStyle"
+            android:text="@string/calculatorBack" />
+
+
+        <TextView
+            android:id="@+id/actionEquals"
+            style="@style/ActionButtonStyle"
+            android:text="@string/calculatorEqual" />
+
+    </LinearLayout>
+
+</LinearLayout>

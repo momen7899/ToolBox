@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">جعبه ابزار</string>
+    <string name="pass">پسوردها</string>
+    <string name="unitConversion">تبدیل واحد</string>
+    <string name="flashLight">چراغ قوه</string>
+    <string name="timer">زمان سنج</string>
+    <string name="calculator">ماشین حساب</string>
+    <string name="exit">خروج</string>
+    <string name="wrongDB">مشکلی پیش آمده است.بعد از مدتی دوباره سعی کنید.</string>
+    <string name="doneDB">تغییرات با موفقیت انجام شد.</string>
+    <string name="welcome">خوش آمدید</string>
+    <string name="confirm">تایید</string>
+    <string name="notExistFlashLight">گوشی شما چراغ قوه ندارد</string>
+    <string name="warn">اخطار</string>
+    <string name="getIt">متوجه شدم</string>
+    <string name="timerPlay">شروع</string>
+    <string name="timerStop">توقف</string>
+    <string name="timerStart">شروع مجدد</string>
+    <string name="timerStartTime">00:00:00</string>
+    <string name="appNameHint">اسم برنامه را وارد کنید</string>
+    <string name="passHint">رمز را وارد کنید</string>
+
+    // calculator
+    <string name="calculatorCE">CE</string>
+    <string name="calculatorBrace1">(</string>
+    <string name="calculatorBrace2">)</string>
+    <string name="calculatorDivide">/</string>
+    <string name="calculatorSeven">7</string>
+    <string name="calculatorEight">8</string>
+    <string name="calculatorNine">9</string>
+    <string name="calculatorMultiply">*</string>
+    <string name="calculatorFour">4</string>
+    <string name="calculatorFive">5</string>
+    <string name="calculatorSix">6</string>
+    <string name="calculatorNegative">-</string>
+    <string name="calculatorOne">1</string>
+    <string name="calculatorTwo">2</string>
+    <string name="calculatorThree">3</string>
+    <string name="calculatorSum">+</string>
+    <string name="calculatorDot">.</string>
+    <string name="calculatorZero">0</string>
+    <string name="calculatorBack">Back</string>
+    <string name="calculatorEqual">=</string>
+    <string name="mainTitle">خانه</string>
+    <string name="goodbyeText">به سلامت</string>
+    <string name="passTitle">رمز ها</string>
+    <string name="emptyConvertationText">عددی را وارد کنید</string>
+    <string name="convertationTitle">تبدیل واحد</string>
+
+</resources>
